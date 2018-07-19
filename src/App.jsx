@@ -16,9 +16,9 @@ class App extends Component {
 
   search() {
     console.log('this.state', this.state);
-    const BASE_URL = 'http://localhost:3001/spotify';
+    const BASE_URL = 'https://elementsoftworks.co.uk/spotify';
     let FETCH_URL = `${BASE_URL}/${this.state.query}`;
-    const ALBUM_URL = 'http://localhost:3001/spotifyArtist';
+    const ALBUM_URL = 'https://elementsoftworks.co.uk/spotifyArtist';
 
     console.log('FETCH+URL', FETCH_URL);
 
